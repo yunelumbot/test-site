@@ -16,19 +16,19 @@ body
 
 p, ul, ol {
 	font-size: 1em; /* 16px */
-	line-height: 1.5em; /* 24px/16px */
-	margin-bottom: 2em; /* 24px/16px */
+	line-height: 2em; /* 24px/16px */
+	margin-bottom: 3em; /* 24px/16px */
 }
 
 h1 {
 	font-size: 1.5em; /* 36px/16px */
-	line-height: 1.3333em; /* 48px/36px */
+	line-height: 2em; /* 48px/36px */
 	padding: 0.33335em 0; /* 12px/36px * 2 (Use padding instead of margin to maintain proximity with paragraph) */
 }
 
 h2 {
 	font-size: 1.25em; /* 24px/16px */
-	line-height: 1em; /* 24px/24px */
+	line-height: 1.3333em; /* 24px/24px */
 	padding: 1em 0 0 0; /* 12px/24px * 2, only top (Use padding instead of margin to maintain proximity with paragwithph) */
 }
 
