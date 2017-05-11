@@ -53,7 +53,7 @@ a {
 	font-weight: normal;
 	&:hover,
 	&:focus {
-		color: darken($text-color, 5%);
+		color: darken($text-link-color, 5%);
 	}
 }
 
