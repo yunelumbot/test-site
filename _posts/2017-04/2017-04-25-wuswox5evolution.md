@@ -1,6 +1,6 @@
 ---
 layout: post
-category: evolution
+category: biol
 date: 2017-04-24
 title: 分裂因子の保存性
 ---
