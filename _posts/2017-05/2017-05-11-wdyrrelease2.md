@@ -14,3 +14,4 @@ CD購入者特典のハイタッチ会も開催されました。いつもは何
 
 ![Why don't you RELAX?リリースイベント](https://pbs.twimg.com/media/C_NW-MIV0AAUU5s.jpg:large)  
 
+{% include youtubePlayer.html id="Zz4yQgbgNsw" %}
