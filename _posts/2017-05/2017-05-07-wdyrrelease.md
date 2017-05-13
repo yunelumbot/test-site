@@ -1,7 +1,6 @@
 ---
 layout: post
 category: 9nine
-date: 2017-05-07
 title: Why don't you RELAX?リリースイベント
 ---
 ついに、待ちに待った[9nine](https://9nine-fan.lespros.co.jp/)のリリースイベントが開催されました。GWの真っ只中に開催されたこのイベント、私はGW前半～中盤はベトナムに行っていたので、体調を崩した場合のための予備に空けておいた、GW後半に参加してきました♪

@@ -1,7 +1,6 @@
 ---
 layout: post
 category: biol
-date: 2017-04-24
 title: 分裂因子の保存性
 ---
 Molecular Biology AND Evolution誌に掲載された分裂組織の進化についての論文を読もうと思います。[Zhang et al.](https://academic.oup.com/mbe/article/34/3/640/2823562/Two-Step-Functional-Innovation-of-the-Stem-Cell)による論文です。中国の湖北省にある武漢大学の方で、武漢大学は中国で最も歴史がある国家重点大学の一つとのことです。

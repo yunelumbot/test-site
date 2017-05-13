@@ -1,7 +1,6 @@
 ---
 layout: post
 category: jekyll
-date: 2017-04-27
 title: Jekyll学習
 ---
 [翻訳サイト](http://jekyllrb-ja.github.io/)などを読みながらJekyllの学習を進めます。備忘のためメモします。
