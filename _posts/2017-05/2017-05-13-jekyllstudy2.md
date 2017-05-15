@@ -23,7 +23,7 @@ category, categories, tags：YAML listまたは、スペースで分けられた
 post_urlタグ：別ポストへのリンク。パーマリンク変更時に良さそう。  
 使ってみる　前回記事は[こちら]({{ site.baseurl }}{% post_url /2017-04/2017-04-27-jekyllstudy %})  
 ※Postのサブディレクトリ名があれば指定する。拡張子は不要。  
-■ 画像やリソース
+■ 画像やリソース  
 ※Cloud9への画像アップロード方法：PCからドラッグ＆ドロップで良いらしい。  
 1：画像を表示  
 ![テスト画像]({{ site.baseurl }}/assets/2017-05/20170513 test.png)  
