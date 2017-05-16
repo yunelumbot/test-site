@@ -8,8 +8,8 @@
     <script src="{{ "/js/jquery-3.2.1.slim.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
     <script src="{{ "/js/jquery.flexslider-min.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
     <script type="text/javascript" charset="UTF-8">
-        $(window).load(function() {
+        $(window).on('load', function() {
             $('.flexslider').flexslider();
-        })
+        });
     </script>
 </head>
