@@ -2,7 +2,9 @@
     {% if page.previous %}
         &lt;&lt; <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
     {% endif %}
+    {% if page.previous and page.next %}
         ｜
+    {% endif %}
     {% if page.next %}
         <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a> &gt;&gt;
     {% endif %}
