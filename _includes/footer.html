@@ -1,3 +1,12 @@
+<p>
+    {% if page.previous %}
+        &lt;&lt; <a href="{{ site.baseurl }}{{ page.previous.url }}">{{ page.previous.title }}</a>
+    {% endif %}
+        ｜
+    {% if page.next %}
+        <a href="{{ site.baseurl }}{{ page.next.url }}">{{ page.next.title }}</a> &gt;&gt;
+    {% endif %}
+</p>
 <h3>Latest Posts</h3>
 <ul>
     {% for post in site.posts limit:5 %}
