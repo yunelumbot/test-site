@@ -21,7 +21,7 @@ includeにパラメータを渡すことができる。param="value"の形式で
 ■コードのハイライト化  
 highlightタグによってコードをハイライトできる。  
 
-■PostのURL
+■PostのURL  
 post_urlタグを用いる。  
 
 ## パーマリンク
