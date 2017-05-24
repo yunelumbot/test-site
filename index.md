@@ -1,6 +1,5 @@
 ---
 layout: default
-title: yu
+title: yu@nelumbot.github
 ---
-## トップページ
 作成中です[。](https://yunelumbot.github.io/web/9nine/)
