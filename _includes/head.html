@@ -4,4 +4,5 @@
 	<meta name="generator" content="Jekyll">
     <title>{{ page.title }}</title>
     <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
+    {% if page.javascript %}<script type="text/javascript" src="/js/{{ page.javascript }}"></script>{% endif %}
 </head>
