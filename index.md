@@ -2,4 +2,4 @@
 layout: default
 title: yu@nelumbot.github
 ---
-作成中です[。](https://yunelumbot.github.io/web/9nine/)
+[作](https://yunelumbot.github.io/web/biol/)成中です[。](https://yunelumbot.github.io/web/9nine/)
