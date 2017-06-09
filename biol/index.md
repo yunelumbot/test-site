@@ -2,7 +2,9 @@
 layout: default
 category: biol
 title: biol
-javascript: biol.js
+javascript: 
+    - jquery-3.2.1.js
+    - biol.js
 ---
 <a onclick="clickNode">Basal angiosperms</a>
 <div id="basalAngiosperms" style="display:none">
