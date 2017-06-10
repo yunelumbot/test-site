@@ -1,8 +1,8 @@
 function clickNode(divId) {
-    var clickedDiv = $("#" + divId).style;
-    if (clickedDiv.display == 'none') {
-        clickedDiv.display = "block";
+    var clickedDiv = $("#" + divId);
+    if (clickedDiv.css("display") == "none") {
+        clickedDiv.css("display","block");
     } else {
-        clickedDiv.display = "none";
+        clickedDiv.css("display","none");
     }
 }
