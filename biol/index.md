@@ -79,6 +79,6 @@ javascript:
 <li>Edicots</li>
 </ul>
 </div>
-<input type="button" value="show" onClick="clickNode2()" />
+<input type="button" value="show" onClick="clickNode2('root')" />
 
 作成中
