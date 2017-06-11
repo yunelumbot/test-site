@@ -8,5 +8,12 @@ function clickNode(divId) {
 }
 
 function clickNode2() {
+    var request = new XMLHttpRequest();
+    request.open("GET", "/web/json/apg4.json", false);
+    request.send(null);
+    if (request.status == 200) {
+        eval("var apg4 = " + request.responseText);
+        alert(apg4);
+    }
     alert("clicked");
 }
