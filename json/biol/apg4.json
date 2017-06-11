@@ -1,0 +1,10 @@
+{
+    "root": ["Basal Angiosperms", "Mesangiospermae"],
+    
+    "Basal Angiosperms": ["Amborellales", "Nymphaeales", "Austrobaileyales"],
+    "Mesangiospermae": ["Magnoliids", "Chloranthales", "Monocots", "Eudicots"],
+    
+    "Amborellales": ["Amborellaceae"],
+    "Nymphaeales": ["Hydatellaceae", "Cabombaceae", "Nymphaeaceae"],
+    "Austrobaileyales": ["Austrobaileyaceae", "Trimeniaceae", "Schisandraceae"]
+}

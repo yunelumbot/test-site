@@ -6,3 +6,7 @@ function clickNode(divId) {
         clickedDiv.css("display","none");
     }
 }
+
+function clickNode2() {
+    alert("clicked");
+}
