@@ -9,7 +9,7 @@ function clickNode(divId) {
 
 function clickNode2() {
     var request = new XMLHttpRequest();
-    request.open("GET", "/web/biol/json/apg4.json", false);
+    request.open("GET", "/web/json/biol/apg4.json", false);
     request.send(null);
     if (request.status == 200) {
         eval("var apg4 = " + request.responseText);
