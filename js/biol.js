@@ -16,7 +16,7 @@ function clickNode2(divId) {
         eval("apg4 = " + request.responseText);
         var contents;
         for (var i = 0; i < apg4[divId].length; i++) {
-            contents += apg4.divId[i] + " ";
+            contents += apg4[divId][i] + " ";
         }
         alert(contents);
     }
