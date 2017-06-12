@@ -6,5 +6,24 @@
     
     "Amborellales": ["Amborellaceae"],
     "Nymphaeales": ["Hydatellaceae", "Cabombaceae", "Nymphaeaceae"],
-    "Austrobaileyales": ["Austrobaileyaceae", "Trimeniaceae", "Schisandraceae"]
+    "Austrobaileyales": ["Austrobaileyaceae", "Trimeniaceae", "Schisandraceae"],
+    "Magnoliids": ["Canellales", "Laurales", "Magnoliales", "Piperales"],
+    "Chloranthales": ["Chloranthaceae"],
+    "Monocots": ["Acorales", "Alismatales", "Arecales", "Asparagales", "Commelinales", "Dioscoreales", "Liliales", "Pandanales", "Petrosaviales", "Poales", "Zingiberales"],
+    
+    "Canellales": ["Canellaceae", "Winteraceae"],
+    "Laurales": ["Calycanthaceae", "Siparunaceae", "Gomortegaceae", "Atherospermataceae", "Hernandiaceae", "Monimiaceae", "Lauraceae"],
+    "Magnoliales": ["Myristicaceae", "Magnoliaceae", "Degeneriaceae", "Himantandraceae", "Eupomatiaceae", "Annonaceae"],
+    "Piperales": ["Saururaceae", "Piperaceae", "Aristolochiaceae"],
+    "Acorales": ["Acoraceae"],
+    "Alismatales": ["Araceae", "Tofieldiaceae", "Alismataceae", "Butomaceae", "Hydrocharitaceae", "Scheuchzeriaceae", "Aponogetonaceae", "Juncaginaceae", "Maundiaceae", "Zosteraceae", "Potamogetonaceae", "Posidoniaceae", "Ruppiaceae", "Cymodoceaceae"],
+    "Arecales": ["Dasypogonaceae", "Arecaceae"],
+    "Asparagales": ["Orchidaceae", "Boryaceae", "Blandfordiaceae", "Asteliaceae", "Lanariaceae", "Hypoxidaceae", "Doryanthaceae", "Ixioliriaceae", "Tecophilaceae", "Iridaceae", "Xeronemataceae", "Asphodelaceae", "Amaryllidaceae", "Asparagaceae"],
+    "Commelinales": ["Hanguanaceae", "Commelinaceae", "Philydraceae", "Pontederiaceae", "Haemodoraceae"],
+    "Dioscoreales": ["Nartheciaceae", "Burmanniaceae", "Dioscoreaceae"],
+    "Liliales": ["Campynemataceae", "Corsiaceae", "Melanthiaceae", "Petermanniaceae", "Alstroemeriaceae", "Colchicaceae", "Philesiaceae", "Ripogonaceae", "Smilacaceae", "Liliaceae"],
+    "Pandanales":["Triuridaceae", "Velloziaceae", "Stemonaceae", "Cyclanthaceae", "Pandanaceae"],
+    "Petrosaviales": ["Petrosaviaceae"],
+    "Poales": ["Typhaceae", "Bromeliaceae", "Rapateaceae", "Xyridaceae", "Eriocaulaceae", "Mayacaceae", "Thurniaceae", "Juncaceae", "Cyperaceae", "Restionaceae", "Flagellariaceae", "Joinvilleaceae", "Ecdeiocoleaceae", "Poaceae"],
+    "Zingiberales": ["Strelitziaceae", "Lowiaceae", "Heliconiaceae", "Musaceae", "Cannaceae", "Marantaceae", "Costaceae", "Zingiberaceae"]
 }
