@@ -12,17 +12,23 @@ var param = {
 };
 
 // クリック処理
-// @param divId クリックされたdivのID
-function clickNode2(divId) {
+// @param elementId クリックされた要素のID
+function clickNode2(elementId) {
     if (param.apg4 === null) {
         param.apg4 = loadJson("apg4");
     }
     
-    var contents = "";
-    for (var i = 0; i < param.apg4[divId].length; i++) {
-        contents += param.apg4[divId][i] + " ";
+    // 子要素追加対象
+    var element = $("#" + elementId);
+    for (var i = 0; i < param.apg4[elementId].length; i++) {
+        // 子要素を作成
+        var childDiv = document.createElement("div");
+        childDiv.setAttribute("id", param.apg4[elementId][i]);
+//        childDiv.setAttribute("style", "display:none");
+        
+        // 子要素を追加
+        element.appendChild(childDiv);
     }
-    alert(contents);
 }
 
 // JSONファイルを読み込む処理
