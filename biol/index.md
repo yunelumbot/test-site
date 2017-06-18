@@ -19,7 +19,8 @@ javascript:
 </li>
 </ul>
 </div>
-<a id="root" onclick="clickNode2('root')">root</a>
+<a onclick="clickNode2('root')">root</a>
+<div id="root" style="display:none">
 
 
 作成中
