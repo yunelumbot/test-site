@@ -11,6 +11,8 @@ var param = {
     "apg4": null
 };
 
+// クリック処理
+// @param divId クリックされたdivのID
 function clickNode2(divId) {
     if (param.apg4 === null) {
         param.apg4 = loadJson("apg4");
@@ -23,8 +25,8 @@ function clickNode2(divId) {
     alert(contents);
 }
 
-// JSONファイルを読み込む
-// fileName ファイル名を表す文字列
+// JSONファイルを読み込む処理
+// @param fileName ファイル名を表す文字列
 function loadJson(fileName) {
     var contents;
     var request = new XMLHttpRequest();
