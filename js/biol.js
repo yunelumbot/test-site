@@ -1,19 +1,10 @@
-function clickNode(divId) {
-    var clickedDiv = $("#" + divId);
-    if (clickedDiv.css("display") == "none") {
-        clickedDiv.css("display","block");
-    } else {
-        clickedDiv.css("display","none");
-    }
-}
-
 var param = {
     "apg4": null
 };
 
 // クリック処理
 // @param divId 処理対象のdivのID
-function clickNode2(divId) {
+function clickNode(divId) {
     if (param.apg4 === null) {
         param.apg4 = loadJson("apg4");
     }
@@ -45,7 +36,7 @@ function clickNode2(divId) {
         
         // 子要素(a)を作成し、liに追加
         var newA = $("<a>" + param.apg4[divId][i] + "</a>");
-        newA.attr("onclick", "clickNode2('" + param.apg4[divId][i] +"')");
+        newA.attr("onclick", "clickNode('" + param.apg4[divId][i] +"')");
         newLi.append(newA);
         // 子要素(div)を作成し、liに追加
         var newDiv = $("<div id='" + param.apg4[divId][i] + "'></div>");
