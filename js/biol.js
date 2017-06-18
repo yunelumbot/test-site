@@ -22,10 +22,8 @@ function clickNode2(elementId) {
     var element = $("#" + elementId);
     for (var i = 0; i < param.apg4[elementId].length; i++) {
         // 子要素を作成
-        var childDiv = document.createElement("div");
-        childDiv.setAttribute("id", param.apg4[elementId][i]);
-//        childDiv.setAttribute("style", "display:none");
-        
+        var childDiv = "<div id='" + param.apg4[elementId][i] + "' style='display:none'>";
+
         // 子要素を追加
         element.after(childDiv);
     }
