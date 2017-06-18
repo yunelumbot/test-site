@@ -36,7 +36,7 @@ function clickNode(divId) {
         
         // 子要素(a)を作成し、liに追加
         var newA = $("<a>" + param.apg4[divId][i] + "</a>");
-        newA.attr("onclick", "clickNode('" + param.apg4[divId][i] +"')");
+        newA.attr("onclick", "clickNode('" + param.apg4[divId][i].replace(" ","") +"')");
         newLi.append(newA);
         // 子要素(div)を作成し、liに追加
         var newDiv = $("<div id='" + param.apg4[divId][i].replace(" ","") + "'></div>");
