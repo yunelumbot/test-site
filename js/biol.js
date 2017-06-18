@@ -27,7 +27,7 @@ function clickNode2(elementId) {
 //        childDiv.setAttribute("style", "display:none");
         
         // 子要素を追加
-        element.appendChild(childDiv);
+        element.after(childDiv);
     }
 }
 
