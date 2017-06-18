@@ -38,7 +38,7 @@ function clickNode2(divId) {
     // 要素(ul)を作成
     var newUl = $("<ul></ul>");
     // 要素(ul)を追加
-    element.after(newUl);
+    element.append(newUl);
     for (var i = 0; i < param.apg4[divId].length; i++) {
         // 子要素(li)を作成
         var newLi = $("<li></li>");

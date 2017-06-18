@@ -20,7 +20,7 @@ javascript:
 </ul>
 </div>
 <a onclick="clickNode2('root')">root</a>
-<div id="root" style="display:none">
+<div id="root" style="display:none"></div>
 
 
 作成中
