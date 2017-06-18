@@ -28,10 +28,15 @@ body
 
 /*- Typography for medium and small screen, based on 16px font-size -*/
 
-p, ul, ol {
+p, ol {
 	font-size: 1em; /* 16px */
 	line-height: 1.8em; /* 24px/16px */
 	margin-bottom: 1.8em; /* 24px/16px */
+}
+
+ul {
+	font-size: 1em; /* 16px */
+	line-height: 1.8em; /* 24px/16px */
 }
 
 table {
@@ -74,10 +79,15 @@ blockquote {
 
 @media (min-width: 940px) { //Breakpoint set to 940px
 
-p, ul, ol {
+p, ol {
 	font-size: 1em; /* 18px */
 	line-height: 1.6667em; /* 24px/18px */
 	margin-bottom: 1.6667em; /* 24px/18px */
+}
+
+ul {
+	font-size: 1em; /* 18px */
+	line-height: 1.6667em; /* 24px/18px */
 }
 
 table {
