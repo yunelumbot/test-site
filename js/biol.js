@@ -17,7 +17,7 @@ var biol = {
             // 非表示の場合は、表示する
             element.css("display","block");
             if (element.children().length !== 0) {
-                // 子要素を1件以上取得済みの場合は処理を終了する
+                // 子要素を取得済みの場合は処理を終了する
                 return;
             }
         } else {
