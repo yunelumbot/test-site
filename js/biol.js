@@ -34,12 +34,13 @@ function clickNode(divId) {
         // 子要素(li)を作成
         var newLi = $("<li></li>");
         
+        // TODO 2単語以上の場合の取り扱いを検討中
         // 子要素(a)を作成し、liに追加
         var newA = $("<a>" + param.apg4[divId][i] + "</a>");
-        newA.attr("onclick", "clickNode('" + param.apg4[divId][i].replace(" ","") +"')");
+        newA.attr("onclick", "clickNode('" + param.apg4[divId][i] +"')");
         newLi.append(newA);
         // 子要素(div)を作成し、liに追加
-        var newDiv = $("<div id='" + param.apg4[divId][i].replace(" ","") + "'></div>");
+        var newDiv = $("<div id='" + param.apg4[divId][i] + "'></div>");
         newDiv.attr("style", "display:none");
         newLi.append(newDiv);
         
