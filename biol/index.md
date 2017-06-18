@@ -19,7 +19,7 @@ javascript:
 </li>
 </ul>
 </div>
-<a onclick="clickNode2('root')">root</a>
+<a id="root" onclick="clickNode2('root')">root</a>
 
 
 作成中
