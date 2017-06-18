@@ -37,7 +37,7 @@ var biol = {
             
             // 子要素(a)を作成し、liに追加
             var newA = $("<a>" + this.param.apg4[divId][i] + "</a>");
-            newA.attr("onclick", "clickNode('biol." + this.param.apg4[divId][i] +"')");
+            newA.attr("onclick", "biol.clickNode('" + this.param.apg4[divId][i] +"')");
             newLi.append(newA);
             // 子要素(div)を作成し、liに追加
             var newDiv = $("<div id='" + this.param.apg4[divId][i] + "'></div>");
