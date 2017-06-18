@@ -7,16 +7,31 @@ function clickNode(divId) {
     }
 }
 
+var param = {
+    "apg4": null
+};
+
 function clickNode2(divId) {
+    if (param.apg4 === null) {
+        param.apg4 = loadJson("apg4");
+    }
+    
+    var contents = "";
+    for (var i = 0; i < param.apg4[divId].length; i++) {
+        contents += param.apg4[divId][i] + " ";
+    }
+    alert(contents);
+}
+
+// JSONファイルを読み込む
+// fileName ファイル名を表す文字列
+function loadJson(fileName) {
+    var contents;
     var request = new XMLHttpRequest();
-    request.open("GET", "/web/json/biol/apg4.json", false);
+    request.open("GET", "/web/json/biol/"+fileName+".json", false);
     request.send(null);
     if (request.status == 200) {
-        var apg4 = JSON.parse(request.responseText);
-        var contents = "";
-        for (var i = 0; i < apg4[divId].length; i++) {
-            contents += apg4[divId][i] + " ";
-        }
-        alert(contents);
+        contents = JSON.parse(request.responseText);
     }
+    return contents;
 }
