@@ -26,9 +26,9 @@ var biol = {
             return;
         }
         
-        element.css("display","block");
         // 要素(ul)を作成
         var newUl = $("<ul></ul>");
+        newUl.css("margin-left", 10);
         // 要素(ul)を追加
         element.append(newUl);
         for (var i = 0; i < this.param.apg4[divId].length; i++) {
