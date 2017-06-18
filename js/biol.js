@@ -6,8 +6,8 @@ var biol = {
     // クリック処理
     // @param divId 処理対象のdivのID
     clickNode : function(divId) {
-        if (param.apg4 === null) {
-            param.apg4 = loadJson("apg4");
+        if (this.param.apg4 === null) {
+            this.param.apg4 = this.loadJson("apg4");
         }
         
         // 要素追加対象
@@ -31,16 +31,16 @@ var biol = {
         var newUl = $("<ul></ul>");
         // 要素(ul)を追加
         element.append(newUl);
-        for (var i = 0; i < param.apg4[divId].length; i++) {
+        for (var i = 0; i < this.param.apg4[divId].length; i++) {
             // 子要素(li)を作成
             var newLi = $("<li></li>");
             
             // 子要素(a)を作成し、liに追加
-            var newA = $("<a>" + param.apg4[divId][i] + "</a>");
-            newA.attr("onclick", "clickNode('biol." + param.apg4[divId][i] +"')");
+            var newA = $("<a>" + this.param.apg4[divId][i] + "</a>");
+            newA.attr("onclick", "clickNode('biol." + this.param.apg4[divId][i] +"')");
             newLi.append(newA);
             // 子要素(div)を作成し、liに追加
-            var newDiv = $("<div id='" + param.apg4[divId][i] + "'></div>");
+            var newDiv = $("<div id='" + this.param.apg4[divId][i] + "'></div>");
             newDiv.attr("style", "display:none");
             newLi.append(newDiv);
             
