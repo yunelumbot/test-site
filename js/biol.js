@@ -42,7 +42,11 @@ var biol = {
             
             // 子要素(a)を作成し、liに追加
             var newId = this.param.apg4[divId][i];
-            var newA = $("<a>" + newId + " " + this.param.apg4j[newId] + "</a>");
+            var newIdJ = "";
+            if (newId in this.param.apg4j) {
+                newIdJ = this.param.apg4j[newId];
+            }
+            var newA = $("<a>" + newId + " " + newIdJ + "</a>");
             newA.attr("onclick", "biol.clickNode('" + newId +"')");
             newLi.append(newA);
             // 子要素(div)を作成し、liに追加
